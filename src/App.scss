@@ -1,0 +1,37 @@
+.App {
+  
+  display: grid;
+  grid-template-columns: 8% auto;
+  grid-template-areas: "tabs sports";
+
+  &__tabs{
+    display: flex;
+    flex-direction: column;
+    grid-area: tabs;
+    justify-content: start;
+    margin: 1rem;
+
+
+    > button{
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 1.5rem;
+
+      > svg {
+        cursor: pointer;
+        width: 2rem;
+      }
+
+      }
+      
+    }
+
+
+  &__sport{
+    grid-area: sports;
+
+  }
+}
+
+
