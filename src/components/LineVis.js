@@ -12,7 +12,6 @@ import {
 import "./Vis.scss"
 
 const LineVis = ({
-  data,
   runActivities,
   walkActivities,
   cycleActivities,
